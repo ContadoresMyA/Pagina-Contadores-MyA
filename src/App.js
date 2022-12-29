@@ -27,7 +27,7 @@ function App() {
               </Route>
               <Route path= {pads.businessPad} component={empresa} />
               <Route path= {pads.contactPad}component={contacto} />
-              <Route path= {pads.cataloguePad}component={servicios} />
+              <Route path= '/catalogue' component={servicios} />
             </Switch>
           </Router>
           <br/>

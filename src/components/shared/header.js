@@ -25,7 +25,7 @@ function header() {
               <a className="nav-link" aria-current="page" href="/" id="texto">{elementos.home}</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href={elementos.cataloguePad} id="texto">{elementos.catalogue}</a>
+              <a className="nav-link" href="/catalogue" id="texto">{elementos.catalogue}</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href={elementos.contactPad}id="texto">{elementos.contact}</a>

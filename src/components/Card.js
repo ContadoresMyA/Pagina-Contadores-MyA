@@ -11,12 +11,12 @@ const Card = (props) => {
 
             <div className="container text-center">
                 <a id="car">
-                <img src={imagen} width="90%" />
+                <img src={imagen} width="90%" alt=""/>
                 </a>
             </div>
 
             <div className="row align-items-center">
-                <a>
+                <a id="">
                     <h3>{titulo}</h3>
                 </a>
             </div>
