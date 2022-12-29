@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 function Header() {
   const elementos={
@@ -15,23 +16,23 @@ function Header() {
   return (
     <nav className="navbar navbar-expand-lg bg-light">
       <div className="container-fluid">
-        <a className="nav-link" aria-current="page" href="/"><img src={elementos.Logo} width="70" /></a>
+        <NavLink   to="/" className="nav-link" aria-current="page"><img src={elementos.Logo} width="70" /></NavLink>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav mx-auto">
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="/" id="texto">{elementos.home}</a>
+              <NavLink className="nav-link" aria-current="page" to="/" id="texto">{elementos.home}</NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="/catalogue" id="texto">{elementos.catalogue}</a>
+              <NavLink className="nav-link" aria-current="page" to="/catalogue" id="texto">{elementos.catalogue}</NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href={elementos.contactPad}id="texto">{elementos.contact}</a>
+              <NavLink className="nav-link" aria-current="page" to={elementos.contactPad}id="texto">{elementos.contact}</NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href={elementos.businessPad}id="texto">{elementos.bussiness}</a>
+              <NavLink className="nav-link" aria-current="page" to={elementos.businessPad}id="texto">{elementos.bussiness}</NavLink>
             </li>
           </ul>
         </div>
