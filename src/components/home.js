@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from './Card';
 
-function home() {
+function Home() {
   const imagenesBanner={
     banner1Img: "./Images/banner1.jpeg",
     banner2Img: "./Images/banner2.jpeg",
@@ -115,6 +115,6 @@ function home() {
   )
 }
 
-export default home
+export default Home
 
 
