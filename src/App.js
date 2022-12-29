@@ -1,13 +1,13 @@
 import '../node_modules/bootstrap/scss/bootstrap.scss';
 import './index.css'
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch, Routes } from 'react-router-dom'
 import Navbar from './components/shared/header';
-import Inicio from './components/home';
-import empresa from './components/business';
-import contacto from './components/contact';
-import servicios from './components/catalogue';
 import Footer from './components/shared/footer';
+import Home from './components/home';
+import Business from './components/business';
+import Contact from './components/contact';
+import Catalogue from './components/catalogue';
 
 function App() {
   const pads={
@@ -21,14 +21,12 @@ function App() {
         <div className="col">
           <Router>
             <Navbar />
-            <Switch>
-              <Route path='/' exact component={Inicio} >
-                <Inicio/>
-              </Route>
-              <Route path= {pads.businessPad} component={empresa} />
-              <Route path= {pads.contactPad}component={contacto} />
-              <Route path= '/catalogue' component={servicios} />
-            </Switch>
+            <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/business" element={<Business/>}/>
+          <Route path="/catalogue" element={<Catalogue/>}/>
+          <Route path='/contact' element={<Contact/>}/>
+        </Routes>
           </Router>
           <br/>
           <Footer />

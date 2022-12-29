@@ -1,6 +1,6 @@
 import React from 'react'
 
-function business() {
+function Business() {
   const Titulo={
     AcercaDe:"Acerca de",
     AcercaDeTxt:"Nuestra gestión se realiza desde el ámbito profesional con responsabilidad y altos estándares de calidad, en forma diligente y personalizada. Nuestra experiencia va de la mano con los conocimientos obtenidos en el transcurso de los años y en acompañamiento de excelentes profesionales."
@@ -56,4 +56,4 @@ function business() {
   )
 }
 
-export default business
+export default Business
