@@ -1,6 +1,6 @@
 import React from 'react'
 
-function header() {
+function Header() {
   const elementos={
     home:"INICIO",
     catalogue:"SERVICIOS",
@@ -40,4 +40,4 @@ function header() {
   )
 }
 
-export default header
+export default Header
