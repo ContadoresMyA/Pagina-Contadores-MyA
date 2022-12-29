@@ -25,13 +25,13 @@ function Header() {
               <a className="nav-link" aria-current="page" href="/" id="texto">{elementos.home}</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/catalogue" id="texto">{elementos.catalogue}</a>
+              <a className="nav-link" aria-current="page" href="/catalogue" id="texto">{elementos.catalogue}</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href={elementos.contactPad}id="texto">{elementos.contact}</a>
+              <a className="nav-link" aria-current="page" href={elementos.contactPad}id="texto">{elementos.contact}</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href={elementos.businessPad}id="texto">{elementos.bussiness}</a>
+              <a className="nav-link" aria-current="page" href={elementos.businessPad}id="texto">{elementos.bussiness}</a>
             </li>
           </ul>
         </div>
