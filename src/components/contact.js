@@ -1,7 +1,7 @@
 import React from 'react'
 import Formulario from './shared/Formulario';
 
-function contact() {
+function Contact() {
     const redesSociales={
         Redes:"Redes sociales",
         Red1:"Facebook",
@@ -65,4 +65,4 @@ function contact() {
     )
 }
 
-export default contact
+export default Contact
