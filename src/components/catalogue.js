@@ -12,7 +12,7 @@ function Catalogue() {
         1: "Plan de negocios",
         2: "Flujo de efectivo",
         2: "NIFF, NIC",
-        3: "Análisis de cartera, Gestión cobranza",
+        3: "Análisis de cartera,gestión de cobranza",
         4: "Elaboración de presupuestos",
         5: "Consolidación de Estados contables",
         6: "Análisis de estados financieros"
