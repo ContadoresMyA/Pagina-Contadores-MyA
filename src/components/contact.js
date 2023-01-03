@@ -14,7 +14,7 @@ function Contact() {
         Red2Txt:"Contactanos en Linkedin",
         Red3:"Whatsapp",
         Red3Link:"https://wa.me/+593984641093?text=Hola Contadores, me gustaría mas información sobre sus servicios",
-        Red3Pad:"./Images/Whatsapp.jpg",
+        Red3Pad:"./Images/Whatsapp.png",
         Red3Txt:"Escribenos por whatsapp",
         contacto:"Nosotros te contactamos"
     }
