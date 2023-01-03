@@ -57,8 +57,8 @@ function Catalogue() {
     }
     const servicio6 = "Seguridad Industrial"
     const servicio6Items = {
-        1: "Implementación de sistemas de gestión de servicio6Items, salud y medio ambiente",
-        2: "Capacitación y certificaciones especiales de servicio6Items industrial",
+        1: "Implementación de sistemas de gestión de servicio, salud y medio ambiente",
+        2: "Capacitación y certificaciones especiales de seguridad industrial",
         3: "Legislación y regulación laboral (MDT, MSP, MAE. IESS, ARCH)",
         4: "Investigación de accidentes y enfermedades profesionales",
         5: "Proveedores de equipos de protección personal (EPP)",
