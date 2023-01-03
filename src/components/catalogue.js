@@ -53,7 +53,7 @@ function Catalogue() {
     const riesgos = {
         1: "Auditoria interna",
         2: "Gestión de riesgos",
-        3: "Resvición forense"
+        3: "Forense"
     }
     const servicio6 = "Seguridad Industrial"
     const servicio6Items = {
