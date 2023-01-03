@@ -11,8 +11,8 @@ function Catalogue() {
     const servicio1Items = {
         1: "Plan de negocios",
         2: "Flujo de efectivo",
-        2: "Estados financieros",
-        3: "Análisis de cartera",
+        2: "NIFF, NIC",
+        3: "Análisis de cartera, Gestión cobranza",
         4: "Elaboración de presupuestos",
         5: "Consolidación de Estados contables",
         6: "Análisis de estados financieros"
