@@ -62,7 +62,7 @@ function Catalogue() {
         3: "Legislación y regulación laboral (MDT, MSP, MAE. IESS, ARCH)",
         4: "Investigación de accidentes y enfermedades profesionales",
         5: "Proveedores de equipos de protección personal (EPP)",
-        6: "Proveedores de equipos de servicio6Items industrial",
+        6: "Proveedores de equipos de seguridad industrial",
         7: "Extintores y sistemas contra incendio y equipos de emergencia"
     }
     return (
