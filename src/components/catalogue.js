@@ -11,8 +11,8 @@ function Catalogue() {
     const servicio1Items = {
         1: "Plan de negocios",
         2: "Flujo de efectivo",
-        2: "Estados financieros",
-        3: "Análisis de cartera",
+        2: "NIFF, NIC",
+        3: "Análisis de cartera,gestión de cobranza",
         4: "Elaboración de presupuestos",
         5: "Consolidación de Estados contables",
         6: "Análisis de estados financieros"
@@ -53,16 +53,16 @@ function Catalogue() {
     const riesgos = {
         1: "Auditoria interna",
         2: "Gestión de riesgos",
-        3: "Resvición forense"
+        3: "Forense"
     }
     const servicio6 = "Seguridad Industrial"
     const servicio6Items = {
-        1: "Implementación de sistemas de gestión de servicio6Items, salud y medio ambiente",
-        2: "Capacitación y certificaciones especiales de servicio6Items industrial",
+        1: "Implementación de sistemas de gestión de servicio, salud y medio ambiente",
+        2: "Capacitación y certificaciones especiales de seguridad industrial",
         3: "Legislación y regulación laboral (MDT, MSP, MAE. IESS, ARCH)",
         4: "Investigación de accidentes y enfermedades profesionales",
         5: "Proveedores de equipos de protección personal (EPP)",
-        6: "Proveedores de equipos de servicio6Items industrial",
+        6: "Proveedores de equipos de seguridad industrial",
         7: "Extintores y sistemas contra incendio y equipos de emergencia"
     }
     return (
