@@ -230,3 +230,95 @@ li{
 		margin-left: -11%;
 	}
 }
+@media only screen and (min-width: 412px) and (max-width: 768px){
+	.dudas{
+		margin-top: -5%;
+		margin-left: -40%;
+	}
+	.iconos-footer{
+		width: 80%;
+		margin-left: 10%;
+	}
+	.logo-footer{
+		width: 150%;
+		padding-bottom: 10%;
+		margin-left: -80%;
+	}
+	.informacion-footer{
+		margin-left: -110%;
+		font-size: 90%;
+	}
+	.imagen1{
+		margin-top: 70%;
+		width: 110%;
+		margin-left: -5%;
+	}
+	.titulo1{
+		margin-left: -100%;
+		padding-bottom: 5%;
+	}
+	.centrada{
+		margin-top: 100%;
+		width: 100%;
+	}
+	.titulo2{
+		width: 200%;
+	}
+	.texto2{
+		margin-top: 8%;
+	}
+	.literales-home{
+		margin-left: -10%;
+		width: 210%;
+	}
+	.form1{
+		width: 120%;
+		margin-left: -11%;
+	}
+}
+@media only screen and (min-width: 375px) and (max-width: 768px){
+	.dudas{
+		margin-top: -5%;
+		margin-left: -40%;
+	}
+	.iconos-footer{
+		width: 80%;
+		margin-left: 10%;
+	}
+	.logo-footer{
+		width: 180%;
+		padding-bottom: 10%;
+		margin-left: -100%;
+	}
+	.informacion-footer{
+		margin-left: -110%;
+		font-size: 80%;
+	}
+	.imagen1{
+		margin-top: 70%;
+		width: 110%;
+		margin-left: -5%;
+	}
+	.titulo1{
+		margin-left: -100%;
+		padding-bottom: 5%;
+	}
+	.centrada{
+		margin-top: 100%;
+		width: 100%;
+	}
+	.titulo2{
+		width: 200%;
+	}
+	.texto2{
+		margin-top: 8%;
+	}
+	.literales-home{
+		margin-left: -10%;
+		width: 210%;
+	}
+	.form1{
+		width: 120%;
+		margin-left: -11%;
+	}
+}
