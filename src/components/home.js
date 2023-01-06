@@ -8,7 +8,7 @@ function Home() {
     banner3Img: "./Images/banner3.jpeg"
   }
   const infoServicio={
-    InformacionDelNegocio: "Breve información acerca de la actividad del negocio",
+    InformacionDelNegocio: "Información acerca de la actividad del negocio",
     TextoInformacionNegocio:"Trabajamos de manera integral, ofrecemos a nuestros clientes servicios profesionales en materia de Asesoría Tributaria, Contabilidad, Administración, Auditorías, Asesoría Municipal, laboral, Seguridad Ocupacional e Importaciones.",
     NegocioImg:"./Images/fi1.jpeg"
   }
