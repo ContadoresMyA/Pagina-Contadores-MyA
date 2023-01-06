@@ -54,7 +54,9 @@ function Contact() {
                         <div className="row">
                             <div className="col" style={{ margin: 'auto' }}>
                                 <h1>{redesSociales.contacto}</h1>
+                                <div className='form1'>
                                 <Formulario />
+                                </div>
                             </div>
                         </div>
                     </div>
