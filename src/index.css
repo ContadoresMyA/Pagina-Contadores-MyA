@@ -23,8 +23,7 @@ img{
     text-align: center;
 }
 .centrada{
-    top: 50%;
-    transform: translateY(30%);
+	margin-top: 5%;
     width: 90%;
 }
 .contenedor-icono{
