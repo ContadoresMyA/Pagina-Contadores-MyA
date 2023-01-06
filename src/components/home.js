@@ -67,20 +67,20 @@ function Home() {
         <div className="row align-items-start">
           <div className="col">
             <br />
-            <img src={infoServicio.NegocioImg} width="70%"/>
+            <img className="imagen1"src={infoServicio.NegocioImg} width="70%"/>
           </div>
           <div className="col">
             <br />
-            <h1>{infoServicio.InformacionDelNegocio}</h1>
-            <p >{infoServicio.TextoInformacionNegocio}</p>
+            <h1 className='titulo1'>{infoServicio.InformacionDelNegocio}</h1>
+            <p>{infoServicio.TextoInformacionNegocio}</p>
           </div>
         </div>
         <div className="row align-items-start">
           <div className="col">
             <br />
-            <h1>{servicioExterno.InformacionDelServicio}</h1>
-            <p>{servicioExterno.InformacionServicio}</p>
-            <ul>
+            <h1 className='titulo2'>{servicioExterno.InformacionDelServicio}</h1>
+            <p className='texto2'>{servicioExterno.InformacionServicio}</p>
+            <ul className='literales-home'>
               <li><p>{servicioExterno.literales[0]}</p></li>
               <li><p>{servicioExterno.literales[1]}</p></li>
               <li><p>{servicioExterno.literales[2]}</p></li>

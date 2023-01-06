@@ -42,7 +42,8 @@ function Catalogue() {
         1: "Constitución sociedades, sucursales y representaciones",
         2: "Registro ante los organismos correspondientes a nivel societario",
         3: "Desarrollo de procedimientos administrativos contables",
-        4: "Modificaciones estatutarias, extincion de sociedades"
+        4: "Modificaciones estatutarias, extincion de sociedades",
+        5: "Administración de edificios"
     }
     const servicio5Completo = "Auditoría"
     const Auditoria = {
@@ -125,6 +126,7 @@ function Catalogue() {
                             <li><p>{servicio4Items[2]}</p></li>
                             <li><p>{servicio4Items[3]}</p></li>
                             <li><p>{servicio4Items[4]}</p></li>
+                            <li><p>{servicio4Items[5]}</p></li>
                         </ul>
                     </div>
                 </div>
@@ -169,7 +171,9 @@ function Catalogue() {
                 <div className="row">
                     <div className="col" style={{ margin: 'auto' }}>
                         <h1>{Titulo.contacto}</h1>
+                        <div className='form1'>
                         <Formulario />
+                        </div>
                     </div>
                 </div>
             </div>
