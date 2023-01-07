@@ -139,7 +139,7 @@ li{
 .informacion-footer{
 	margin-left: -210%;
 }
-@media only screen and (min-width: 481px){
+@media only screen and (max-width: 481px){
 	.dudas{
 		margin-top: -5%;
 		margin-left: -40%;
@@ -185,7 +185,7 @@ li{
 		margin-left: -32%;
 	}
 }
-@media only screen and (min-width: 474px){
+@media only screen and (max-width: 474px){
 	.dudas{
 		margin-top: -5%;
 		margin-left: -40%;
@@ -230,7 +230,7 @@ li{
 		margin-left: -11%;
 	}
 }
-@media only screen and (min-width: 412px){
+@media only screen and (max-width: 412px){
 	.dudas{
 		margin-top: -5%;
 		margin-left: -40%;
@@ -276,7 +276,7 @@ li{
 		margin-left: -11%;
 	}
 }
-@media only screen and (min-width: 375px){
+@media only screen and (max-width: 375px){
 	.dudas{
 		margin-top: -5%;
 		margin-left: -40%;
